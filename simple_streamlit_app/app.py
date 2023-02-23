@@ -4,5 +4,5 @@ from PIL import Image
 st.title('Страничка Алтышевой Марии')
 
 
-img = Image.open("me.jpg")
+img = Image.open("me.png")
 st.image(img, width=500)
